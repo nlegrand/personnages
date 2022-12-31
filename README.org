@@ -1,0 +1,3 @@
+Hey, I’m trying to learn a bit of Django and to write an agnostic RPG
+character manager. Something like DnDBeyond but without character
+building goo. Maybe it will do something useful someday.
