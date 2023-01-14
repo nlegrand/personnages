@@ -1,0 +1,8 @@
+<h1>Les jeux en cours :</h1>
+<ul>
+  {% for game in game_list %}
+  <li>
+    {{game.name}}, {{game.id}}
+  <li>
+  {% endfor %}
+</ul>

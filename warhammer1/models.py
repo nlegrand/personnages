@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 
 # Create your models here.
@@ -7,7 +8,7 @@ class Game(models.Model):
     def __str__(self):
         return self.name
 
-class Character(models.Model):
+class WarhammerCharacter(models.Model):
     name = models.CharField(max_length=200)
     kin = models.CharField(max_length=200)
     gender = models.CharField(max_length=200)

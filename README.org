@@ -1,3 +1,30 @@
 Hey, I’m trying to learn a bit of Django and to write an agnostic RPG
 character manager. Something like DnDBeyond but without character
 building goo. Maybe it will do something useful someday.
+
+* What to do
+
+** Update db
+
+*** Warhammer1
+
+#+BEGIN_SRC shell
+  . ~/testdjango/bin/activate
+  python manage.py makemigrations warhammer1
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell
+  . ~/testdjango/bin/activate
+  python manage.py sqlmigrate warhammer1 0001
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC shell
+  . ~/testdjango/bin/activate
+  python manage.py migrate
+#+END_SRC
+
+#+RESULTS:
